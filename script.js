@@ -35,7 +35,7 @@ $(document).ready(function() {
     $.ajax({
       url: requestUrl,
       method: 'GET',
-      contentType: "application/json"
+      contentType: "application/json",
         success: handleDatatableRender
      });
   }
