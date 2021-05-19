@@ -35,9 +35,9 @@ $(document).ready(function() {
     $.ajax({
       url: requestUrl,
       method: 'GET',
-      contentType: "application/json",
-        success: handleDatatableRender
-     });
+      contentType: "application/json", 
+      success: handleDatatableRender
+    });
   }
 
   function handleTaskUpdateRequest() {
